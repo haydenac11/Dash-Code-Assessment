@@ -14,7 +14,7 @@ df = pd.DataFrame({
 })
 
 # Read in provided data
-forecast_df = pd.read_excel('forecast_data.xlsx')
+forecast_df = pd.read_excel('Dash-Code-Assessment/forecast_data.xlsx')
 forecast_df = forecast_df.rename(columns={'date': 'Date'})
 
 # Change the last value in random data to match the provided data
